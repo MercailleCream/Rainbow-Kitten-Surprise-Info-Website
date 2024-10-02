@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<!-- 
+	Divs:
+	Logo
+
+	About
+	-->
+<html>
+
+<head>
+	<title>Rainbow Kitten Surprise</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Rainbow Kitten Surprise Website">
+	<meta name="keywords" content="HTML,CSS">
+	<meta name="author" content="Ann Chong">
+	<link
+		href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+		rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+	<!-- Icon Library -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+</head>
+
+<body>
+	<header>
+		<div id="logo">
+			<img src="images/logo.png" id="rks_logo" class="av" alt="RKS Logo">
+		</div>
+		<div id="name">
+			<h1>Rainbow Kitten Surprise</h1>
+		</div>
+		<div id="nav">
+			<!-- About -->
+			<ul>
+				<li><a href="#touring">Touring</a></li>
+				<li><a href="#album">Album</a></li>
+				<li><a href="#updates">Updates</a></li>
+				<li><a href="#review">Reviews</a></li>
+				<li><a href="#merch">Merch</a></li>
+				<li><a href="#about">About</a></li>
+			</ul>
+			</nav>
+	</header>
+	<!-- Opening preview image banner -->
+	<img src="images/header-img.jpg" alt="RKS Band Members" id="firstImg" class="av">
+	<div>
+		<!-- the tour image which swaps out depending on screen size -->
+		<img src="images/tour-poster-crop.jpg" alt="Tour Poster cropped large screen" class="image1 av">
+		<img src="images/tour-poster.jpg" alt="Tour Poster wide small screen" class="image2 av">
+		<div id="touring"> <!--tour dates text-->
+			<h2>Tour Dates</h2>
+			<div class="tourdescrip">
+				<div class="location">
+					<!-- DC: tour information w/ related ticket button; repeat for each concert location -->
+					<div class="dateplace">
+						<p>Oct. 16, 2024</p>
+						<p class="colortext">The Anthem</p>
+					</div>
+					<div class="city">
+						<p class="colortext">Washington, DC</p>
+					</div>
+				</div>
+				<div class="ticket">
+					<a href="https://shorturl.at/gFOLV">Tickets</a>
+				</div>
+			</div>
+			<hr>
+			<div class="tourdescrip">
+				<div class="location"> <!-- georgia -->
+					<div class="dateplace">
+						<p>Oct. 18, 2024</p>
+						<p class="colortext">Gas South Arena</p>
+					</div>
+					<div class="city">
+						<p class="colortext">Atlanta, GA</p>
+					</div>
+				</div>
+				<div class="ticket">
+					<a href="https://shorturl.at/3YKIY">Tickets</a>
+				</div>
+			</div>
+			<hr>
+			<div class="tourdescrip">
+				<div class="location"> <!-- tennessee -->
+					<div class="dateplace">
+						<p>Oct. 19, 2024</p>
+						<p class="colortext">Ascend Amphitheater</p>
+					</div>
+					<div class="city">
+						<p class="colortext">Nashville, TN</p>
+					</div>
+				</div>
+				<div class="ticket">
+					<a href="https://shorturl.at/GR4MJ">Tickets</a>
+				</div>
+			</div>
+			<hr>
+			<div class="tourdescrip">
+				<div class="location"> <!-- alabama -->
+					<div class="dateplace">
+						<p>Oct. 20, 2024</p>
+						<p class="colortext">The Orion Amphitheater</p>
+					</div>
+					<div class="city">
+						<p class="colortext">Huntsville, AL</p>
+					</div>
+				</div>
+				<div class="ticket">
+					<a href="https://shorturl.at/4Obye">Tickets</a>
+				</div>
+			</div>
+			<hr>
+			<div class="tourdescrip">
+				<div class="location"> <!-- florida; orlando -->
+					<div class="dateplace">
+						<p>Oct. 22, 2024</p>
+						<p class="colortext">Hard Rock Cafe International</p>
+					</div>
+					<div class="city">
+						<p class="colortext">Orlando, FL</p>
+					</div>
+				</div>
+				<div class="ticket">
+					<a href="https://shorturl.at/QRp24">Tickets</a>
+				</div>
+			</div>
+			<hr>
+			<div class="tourdescrip">
+				<div class="location"> <!-- florida; st.augustine -->
+					<div class="dateplace">
+						<p>Oct. 23, 2024</p>
+						<p class="colortext">The Saint Augustine Amphitheatre</p>
+					</div>
+					<div class="city">
+						<p class="colortext">St. Augustine, FL</p>
+					</div>
+				</div>
+				<div class="ticket">
+					<a href="https://shorturl.at/xc0SL">Tickets</a>
+				</div>
+			</div>
+			<hr>
+		</div>
+	</div>
+	<div id="album">
+		<h2>RKS Album</h2>
+		<iframe src="https://youtube.com/embed/playlist?list=PLD3HDytXtqarN2JU-fEIPoAYwJKpp8KZm&si=Bm9WUubXvs5EP6g_"
+			class="video"></iframe>
+	</div>
+	<div id="updates">
+		<h2>Updates</h2>
+		<iframe src="https://www.instagram.com/rksbandofficial/embed/"></iframe>
+	</div>
+
+	<div id="reviews">
+		<h2>Reviews</h2>
+		<div class="comment">
+			<a href="https://dailybruin.com/2022/05/25/concert-review-rainbow-kitten-surprises-sonic-visual-variety-engages-audience-in-long-set"
+				class="rightalign">
+				<p>"With colors galore, Rainbow Kitten Surprise delivered a visual and vocal feast...With electrifying
+					use of instrumentals and lighting..."</p>
+				<p class="rightalign">Isabella Durgin: House of Blues Anaheim 2022</p>
+			</a>
+		</div>
+		<div class="comment">
+			<a href="https://www.theaquarian.com/2024/05/20/rainbow-kitten-surprise-at-webster-hall-may-9-2024/"
+				class="rightalign">
+				<p>"Rainbow Kitten Surprise demonstrated that it is in a better place now. The band’s
+					performance at Webster Hall remained faithful to the indie pop-rock of the band’s origins, yet also
+					has grown into a much fuller sound."</p>
+				<p class="rightalign">Everynight Charley Crespo: Webster Hall May 2024</p>
+			</a>
+		</div>
+		<div class="comment">
+			<a href="https://www.loudhailermagazine.com/concert-reviews/rainbow-kitten-surprise-at-the-moody-theater-in-austin-tx/"
+				class="rightalign">
+				<p>"The incredibly talented group showed off their musical ability right from the start. Complex lyrics
+					and memorizing instrumental arrangements were to be expected, but to watch them perform live was
+					jaw-dropping."</p>
+				<p class="rightalign">Lauryn Singletary: The Moody Theater May 2024</p>
+			</a>
+		</div>
+	</div>
+
+	<div id="merch">
+		<h2>Merch</h2>
+		<div id="merch1" class="merchdescrip">
+			<img src="images/shirt1.png" alt="Pink RKS Shirt Merchandise with Printed Cat">
+			<p class="colortext">Star Kitten - Web Exclusive Tee</p>
+			<p>$40.00</p>
+		</div>
+		<div id="merch2" class="merchdescrip">
+			<img src="images/hat.png" alt="White Hat with Rainbow Kitten Surprise Text">
+			<p class="colortext">RKS - SS Retro Logo - Hat<br></p>
+			<p>$35.00</p>
+		</div>
+		<div id="merch3" class="merchdescrip">
+			<img src="images/shirt2.png" alt="Blue RKS Shirt Merchandise with Printed Head">
+			<p class="colortext">Code Blue - Web Exclusive Tee</p>
+			<p>$40.00</p>
+		</div>
+		<a href="" class="buttonfiller">See More Merch</a>
+		<a href="https://rainbowkittensurprise.shop.redstarmerch.com/store" class="button">See More Merch</a>
+		<a href="" class="buttonfiller2">See More Merch</a>
+
+	</div>
+	<div id="about">
+		<!-- ABOUT THE MEMBERS AND RKS BAND-->
+		<img src="images/rks-members.jpeg" alt="RKS Band Members" class="bandphoto">
+		<div id="abouttext">
+			<h2>About the Band</h2>
+			<p class="colortext">Rainbow Kitten Surprise formed in North Carolina in 2013 by Darrick Keller and Ela
+				Melo. They got their start as
+				an indie band delving into alternative rock. Some of their albums are "RKS", "How to: Friend, Love,
+				Freefall,"
+				and most recently, "Love Hate Music Box."</p>
+			<p class="colortext">As of September 30th, the four members of the band are (from left to right) Ethan
+				Goodpaster, Ela Melo, Darrick
+				"Bozzy" Keller, and Jess Haney. Rainbow Kitten Surprise is currently touring as of September 9th of
+				2024; they will be snaking through the United States until November
+				25th.
+			</p>
+			<p class="socialmedia">
+				<a href="https://www.instagram.com/RKSBandOfficial/" class="fa fa-instagram"></a>
+				<a href="https://open.spotify.com/artist/4hz8tIajF2INpgM0qzPJz2" class="fa fa-spotify"></a>
+				<a href="https://music.apple.com/us/artist/rainbow-kitten-surprise/811537548" class="fa fa-apple"></a>
+				<a href="https://www.youtube.com/rainbowkittensurprise" class="fa fa-youtube"></a>
+			</p>
+		</div>
+	</div>
+	<div id="footer">
+		<div id="footerleft">
+			<img src="images/logo-dark.png" alt="RKS Logo art" id="footerlogo" class="av">
+		</div>
+		<div id="footerright">
+			<p>RAINBOW KITTEN SURPRISE<br>
+				<br>
+				Website design by Ann Chong<br>
+				Carnegie Mellon University<br>
+				aschong@andrew.cmu.edu
+			</p>
+		</div>
+	</div>
+</body>
+
+</html>
